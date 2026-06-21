@@ -15,15 +15,49 @@ With a continous learning mindset, I am always exploring new technologies and im
 
 ## 🛠️ Skills  
 
-### Frontend  
-- HTML, CSS, JavaScript  
-- React.js  
 
-### Backend  
-- Node.js, Express.js  
+### 🌐 Frontend Development
 
-### Database  
-- MongoDB, SQL 
+* HTML5, CSS3, JavaScript (ES6+)
+* React.js
+* Responsive Web Design
+* Tailwind CSS / Bootstrap
+* UI/UX Basics
+
+### ⚙️ Backend Development
+
+* Node.js
+* Express.js
+* REST API Development
+
+### 🗄️ Database
+
+* MongoDB
+* Basic SQL
+* Database Design Fundamentals
+
+### 🔗 Tools & Technologies
+
+* Git & GitHub
+* VS Code
+* Postman
+* API Integration
+* Debugging
+
+### 💡 Core Concepts
+
+* Data Structures & Algorithms (Basic)
+* Problem Solving
+* OOPs Concepts
+* Clean Code Practices
+
+### 🚀 Additional Skills
+
+* Project Development
+* Team Collaboration
+* Time Management
+* Continuous Learning
+*
 
 ---
 
