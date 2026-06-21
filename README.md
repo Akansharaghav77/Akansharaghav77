@@ -100,7 +100,7 @@ A smart legal assistance platform that connects users with legal information and
 
 🚀 Check out my personal portfolio website:  
 
-👉 [Visit My Portfolio](https://github.com/Akansharaghav77/portfolio)
+👉 [Visit My Portfolio](https://akansharaghav77.github.io/portfolio/)
 
 ## 📫 Contact  
 - Phone no: 6395469224
