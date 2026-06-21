@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akansha Raghav | Full Stack MERN Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Akansha Raghav, a Full Stack MERN Developer specializing in scalable, modern, and high-performance web applications." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scrollProgress"></div>
+
+  <!-- Background Glowing Blobs -->
+  <div class="glow-bg-1"></div>
+  <div class="glow-bg-2"></div>
+
+  <!-- Background Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-accent">&lt;</span>Akansha<span class="logo-accent"> /&gt;</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a href="#projects" class="nav-link"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+        <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="hamburger" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-wrapper">
+      <div class="hero-text-content">
+        <div class="welcome-badge">Welcome to my space</div>
+        <h1 class="hero-name">Akansha Raghav</h1>
+        <h2 class="hero-title">I am a <span class="typing-text" id="typingElement"></span></h2>
+        <p class="hero-tagline">Building scalable, modern, and high-performance web applications</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-glow btn-primary"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+          <a href="#projects" class="btn btn-glow btn-secondary"><i class="fa-solid fa-eye"></i> View Projects</a>
+          <a href="#" class="btn btn-glow btn-outline" download><i class="fa-solid fa-download"></i> Download Resume</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Akansharaghav77" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/akansha-raghav-17" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:akansharaghav77@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down-indicator">
+      <a href="#about" aria-label="Scroll down">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section reveal">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card glass-panel">
+          <div class="card-glow"></div>
+          <div class="about-header">
+            <i class="fa-solid fa-user-tie about-icon"></i>
+            <h3>Professional Summary</h3>
+          </div>
+          <p class="summary-text">
+            A highly motivated and passionate Full Stack MERN Developer with a strong academic background in BCA and MCA. Skilled in building dynamic, responsive, and user-centric web applications using modern technologies. Experienced in both frontend and backend development with a focus on performance, scalability, and clean code practices. Adept at problem-solving, API integration, and developing real-world projects. Eager to contribute to innovative teams and continuously enhance technical expertise.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section education-section reveal">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-timeline">
+        <!-- Education 1 -->
+        <div class="timeline-item glass-panel">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <span class="timeline-date">Post Graduation</span>
+          <h3>Master of Computer Applications (MCA)</h3>
+          <p class="institution">GL Bajaj College of Technology and Management</p>
+        </div>
+        <!-- Education 2 -->
+        <div class="timeline-item glass-panel">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <span class="timeline-date">Graduation</span>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="institution">IIMT Group of Colleges, Technology and Management</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section reveal">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Expertise</h2>
+      <div class="skills-container">
+        
+        <!-- Frontend -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Frontend Development</h3>
+          </div>
+          <ul class="skills-list">
+            <li><i class="fa-brands fa-html5 skill-icon html"></i> HTML5</li>
+            <li><i class="fa-brands fa-css3-alt skill-icon css"></i> CSS3</li>
+            <li><i class="fa-brands fa-js skill-icon js"></i> JavaScript (ES6+)</li>
+            <li><i class="fa-brands fa-react skill-icon react"></i> React.js</li>
+            <li><i class="fa-solid fa-mobile-screen skill-icon responsive"></i> Responsive Design</li>
+            <li><i class="fa-solid fa-wand-magic-sparkles skill-icon tailwind"></i> Tailwind CSS / Bootstrap</li>
+          </ul>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-server"></i>
+            <h3>Backend Development</h3>
+          </div>
+          <ul class="skills-list">
+            <li><i class="fa-brands fa-node-js skill-icon node"></i> Node.js</li>
+            <li><i class="fa-solid fa-gears skill-icon express"></i> Express.js</li>
+            <li><i class="fa-solid fa-network-wired skill-icon api"></i> Rest APIs</li>
+          </ul>
+        </div>
+
+        <!-- Database -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-database"></i>
+            <h3>Database &amp; Storage</h3>
+          </div>
+          <ul class="skills-list">
+            <li><i class="fa-solid fa-leaf skill-icon mongo"></i> MongoDB</li>
+            <li><i class="fa-solid fa-table skill-icon sql"></i> Basic SQL</li>
+          </ul>
+        </div>
+
+        <!-- Tools & Others -->
+        <div class="skills-card glass-panel">
+          <div class="skills-header">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Tools &amp; Workflow</h3>
+          </div>
+          <ul class="skills-list">
+            <li><i class="fa-brands fa-git-alt skill-icon git"></i> Git &amp; GitHub</li>
+            <li><i class="fa-solid fa-code skill-icon vscode"></i> VS Code</li>
+            <li><i class="fa-solid fa-envelope-open-text skill-icon postman"></i> Postman</li>
+            <li><i class="fa-solid fa-puzzle-piece skill-icon integration"></i> API Integration</li>
+            <li><i class="fa-solid fa-bug-slash skill-icon debug"></i> Debugging &amp; Problem Solving</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section reveal">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card glass-panel">
+          <div class="project-image-placeholder">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>AI API</span>
+            </div>
+            <h3>AI Mockmate</h3>
+            <p>An intelligent interview preparation platform designed to simulate real-time interview experiences. It provides AI-generated questions based on different domains and evaluates user responses to improve communication, technical knowledge, and confidence.</p>
+            <div class="project-links">
+              <a href="#" class="btn-project btn-project-primary"><i class="fa-solid fa-play"></i> Live Demo</a>
+              <a href="#" class="btn-project btn-project-outline"><i class="fa-brands fa-github"></i> Codebase</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-panel">
+          <div class="project-image-placeholder">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>MERN Stack</span>
+              <span>NLP</span>
+              <span>Legal AI</span>
+            </div>
+            <h3>Law Connect AI</h3>
+            <p>A smart web-based platform that leverages artificial intelligence to provide legal assistance and guidance. It helps users understand legal concepts, resolve common queries, and access simplified legal information.</p>
+            <div class="project-links">
+              <a href="#" class="btn-project btn-project-primary"><i class="fa-solid fa-play"></i> Live Demo</a>
+              <a href="#" class="btn-project btn-project-outline"><i class="fa-brands fa-github"></i> Codebase</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section reveal">
+    <div class="container">
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="contact-subtitle">Have a project in mind, want to discuss a job role, or just say hello? Drop a message!</p>
+      
+      <div class="contact-grid">
+        
+        <!-- Info Column -->
+        <div class="contact-info-card glass-panel">
+          <h3>Contact Details</h3>
+          <p class="info-description">Feel free to reach out via email, phone, or connect on LinkedIn and GitHub.</p>
+          
+          <ul class="contact-details-list">
+            <li>
+              <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+              <div class="details-content">
+                <span class="detail-label">Email Me</span>
+                <a href="mailto:akansharaghav77@gmail.com" class="detail-value">akansharaghav77@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+              <div class="details-content">
+                <span class="detail-label">Call Me</span>
+                <a href="tel:6395469224" class="detail-value">+91 63954 69224</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="details-content">
+                <span class="detail-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/akansha-raghav-17" target="_blank" rel="noopener" class="detail-value">akansha-raghav-17</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+              <div class="details-content">
+                <span class="detail-label">GitHub</span>
+                <a href="https://github.com/Akansharaghav77" target="_blank" rel="noopener" class="detail-value">Akansharaghav77</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-form-card glass-panel">
+          <form id="portfolioContactForm" class="contact-form">
+            <div class="input-group">
+              <label for="formName">Full Name</label>
+              <input type="text" id="formName" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="input-group">
+              <label for="formEmail">Email Address</label>
+              <input type="email" id="formEmail" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="input-group">
+              <label for="formMessage">Your Message</label>
+              <textarea id="formMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-glow btn-primary form-submit-btn">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formFeedbackMessage" class="feedback-msg"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" aria-label="Back to top" class="btn-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/Akansharaghav77" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/akansha-raghav-17" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:akansharaghav77@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="copyright-text">&copy; 2026 Akansha Raghav. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</body>
+</html>
