@@ -60,6 +60,37 @@ With a continous learning mindset, I am always exploring new technologies and im
 *
 
 ---
+## 🚀 Projects  
+
+### 🤖 AI Mockmate  
+An AI-powered web application designed to help users prepare for interviews through real-time mock sessions. It simulates interview scenarios by generating intelligent questions and providing a structured environment to practice and improve communication skills.  
+
+🔹 **Key Features:**  
+- Live mock interview simulation  
+- AI-generated questions  
+- User-friendly interface  
+- Performance practice environment  
+
+🔹 **Tech Stack:**  
+- Frontend: React.js, HTML, CSS, JavaScript  
+- Backend: Node.js, Express.js  
+- Database: MongoDB  
+
+---
+
+### ⚖️ Law Connect AI  
+A smart legal assistance platform that connects users with legal information and guidance using AI. It helps users understand legal processes, access basic legal advice, and simplifies complex legal concepts through an interactive interface.  
+
+🔹 **Key Features:**  
+- AI-based legal assistance  
+- User query handling system  
+- Simplified legal information  
+- Clean and responsive UI  
+
+🔹 **Tech Stack:**  
+- Frontend: React.js, HTML, CSS, JavaScript  
+- Backend: Node.js, Express.js  
+- Database: MongoDB
 
 ## 📫 Contact  
 - Phone no: 6395469224
