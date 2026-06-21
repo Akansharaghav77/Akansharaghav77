@@ -77,9 +77,6 @@ An AI-powered web application designed to help users prepare for interviews thro
 - Database: MongoDB  
 
 ---
-## 📄 Resume  
-
-📥 [Download My Resume](https://github.com/Akansharaghav77/Akansharaghav77/blob/main/Akansha_Raghav.pdf)
 
 ### ⚖️ Law Connect AI  
 A smart legal assistance platform that connects users with legal information and guidance using AI. It helps users understand legal processes, access basic legal advice, and simplifies complex legal concepts through an interactive interface.  
@@ -94,6 +91,16 @@ A smart legal assistance platform that connects users with legal information and
 - Frontend: React.js, HTML, CSS, JavaScript  
 - Backend: Node.js, Express.js  
 - Database: MongoDB
+  
+ ## 📄 Resume  
+
+📥 [Download My Resume](https://github.com/Akansharaghav77/Akansharaghav77/blob/main/Akansha_Raghav.pdf)
+
+## 🌐 Portfolio  
+
+🚀 Check out my personal portfolio website:  
+
+👉 [Visit My Portfolio](https://github.com/Akansharaghav77/portfolio)
 
 ## 📫 Contact  
 - Phone no: 6395469224
