@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Akansha Raghav  
 
-💻 Full Stack MERN Developer  
+💻 Full MERN Stack Developer  
 
 ---
 
